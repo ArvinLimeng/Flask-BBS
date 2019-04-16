@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}-问答平台</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static',filename='images/favicon.ico') }}" type="image/x-icon" />
     <script src="{{ url_for('static',filename='js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ url_for('static',filename='js/bootstrap.min.js')}}" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js')}}" crossorigin="anonymous"></script>
     {% block head %}{% endblock %}
 </head>
 <body>

@@ -10,7 +10,7 @@
             "type": "python",
             "request": "launch",
             "module": "flask",
-            "pythonPath": "E:/Virtualenv/flask-env/Scripts/python.exe",//可执行文件路径
+            "pythonPath": "E:/Virtualenv/Scripts/python.exe",//可执行文件路径
             "env": {
                 "FLASK_APP": "app.py"
             },
